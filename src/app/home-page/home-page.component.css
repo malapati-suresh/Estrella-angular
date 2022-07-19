@@ -1,4 +1,152 @@
-
+.banner{ display: block;}
 .carousel-indicators .active {width: 16px;
 height: 16px; margin: 0 5px; background-color: #fff;}
 .carousel-indicators li { width: 16px; height: 16px; margin: 0 5px; border: none; background-color: #f8f8f880;}
+.banner .carousel-caption {
+    right: 0;
+    left: 0;
+    padding-bottom: 0;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+.banner .container { text-align: left;}
+.banner h1 { 
+    font-family: 'AvenirNextBold'; font-size: 50px; line-height: 65px; margin-bottom: 20px; text-align: left; text-shadow: none;
+}
+.banner p { 
+    font-size: 20px; line-height: 30px;margin-bottom: 20px;text-shadow: none;
+}
+.banner a {
+    background:#fff; border-radius:50px; padding:20px 30px;color:#0C30FB; cursor: pointer;text-shadow: none; display: inline-block;font-family: 'AvenirNextBold';
+    font-size: 20px;
+}
+.banner a:hover {
+ color:#3953e1; background: #ffffffe0;   
+}
+.carousel-indicators { width: auto; bottom: 60px;}
+
+/* company logo section */
+.company_logo_section{
+    padding: 85px 0px;
+}
+
+.company_logo_section h2{
+    font-weight: 900;
+    font-size: 25px; color: #000; line-height: 30px;
+    font-family: 'AvenirNextBold';
+}
+
+.logo_list {
+    list-style-type: none;
+    padding-left: 0px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+}
+
+/* About us section */
+.about-section-bg {
+    background-color: #fafaff;
+    padding: 85px 0px;
+}
+
+.about-heading-main {
+    font-size:20px; line-height: 25px;
+    color: #0C30FB;
+    font-weight: 900;
+}
+
+.about-heading {
+    font-size: 30px;
+    color: #000000;
+    font-family: 'AvenirNextBold';
+    font-weight: 900; line-height: 30px; margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #323132;
+    line-height: 28px; margin-bottom: 40px;
+}
+.about-description_bold{
+    font-weight: bold;
+    font-style: italic;
+    font-size:20px;
+}
+
+.about-vision {
+    font-size:20px; line-height: 20px; margin-bottom: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+/* It services section */
+.It-services-section{
+    background-color: #fafaff;
+    padding: 50px 0px 120px;
+}
+
+.It-services-section h1{
+    font-size:30px; line-height: 30px;
+    font-weight: bold;
+    font-family: 'AvenirNextBold'; margin-bottom: 30px;
+}
+
+.It-services-section span{
+    color: #0C30FB;
+}
+
+.It-services-description{
+    font-size: 18px;
+    color: #252424;
+    line-height: 28px;
+}
+
+.It-services-heading{
+    font-size: 24px;
+    color: #252424;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'AvenirNextBold';
+}
+
+.It-services-shadow{
+    background-color: #ffffff;
+    padding: 40px 0px;
+    box-shadow: 0px 5px 10px 5px #e1e1e1;
+    border-radius: 15px;
+    position: relative;
+}
+
+.It-services-up-arrow::after{
+    content: '';
+    position: absolute;
+    top:-5%;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 50px solid #ffffff;
+}
+.logo_list li a { cursor: pointer;}
+.It-services-up-arrow { padding:0;}
+.It-services-up-arrow ul { display: flex; align-items: center; flex-wrap: wrap;}
+.It-services-up-arrow ul li { width: 33%; padding: 0 40px; margin-bottom: 20px;}
+.It-services-up-arrow ul li p { margin-bottom: auto;}
+.It-services-section p {
+     margin-bottom: 80px;
+}
+
+.It-services-up-arrow ul li h1{
+    font-size: 24px;
+    color: #252424;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'AvenirNextBold'; margin-bottom:20px;
+}

@@ -36,13 +36,14 @@ h5,
 h6 {
     margin: 0;
 }
+a:hover{ text-decoration: none !important;}
 
-/* a,a:hover{
+a,a:hover{
 -webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out; text-decoration: none;
 }
-a:not([href]):not([class]), a:not([href]):not([class]):hover { color: #fff;
+/* a:not([href]):not([class]), a:not([href]):not([class]):hover { color: #fff;
     -webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;
-} */
+}  */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -53,7 +54,7 @@ button:focus {
     outline: none;
 }
 
-.container {}
+.container {width:1400px !important;}
 
 @font-face {
     font-family: 'AvenirNextRegular';
@@ -83,4 +84,24 @@ button:focus {
          url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.woff') format('woff'),
          url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.ttf') format('truetype'),
          url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.svg#AvenirNextBold') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProRegular';
+    src: url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.eot');
+    src: url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.eot') format('embedded-opentype'),
+         url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.woff2') format('woff2'),
+         url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.woff') format('woff'),
+         url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.ttf') format('truetype'),
+         url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.svg#AvenirNextLTProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProBold';
+    src: url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.eot');
+    src: url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.eot') format('embedded-opentype'),
+         url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.woff2') format('woff2'),
+         url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.woff') format('woff'),
+         url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.ttf') format('truetype'),
+         url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.svg#AvenirNextLTProBold') format('svg');
 }

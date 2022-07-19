@@ -5,7 +5,7 @@ header .navbar-inverse { border-color: transparent; background-color: transparen
 height: auto; padding: 0; cursor: pointer; margin-right: auto;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-color:#0C30FB; background-color: transparent; border-bottom: #0C30FB 3px solid;}
+color:#0C30FB; background-color: transparent;}
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover { color: #0C30FB;}
 .middle-section{
     display: flex;
@@ -17,7 +17,7 @@ header .container-fluid{ width: 92%; margin: auto;}
 .main-nav-sec { display: flex; align-items: center; width: 100%;}
 .navbar-collapse { padding: 0;}
 .navbar-inverse .navbar-nav>li>a {color: #000; font-size:18px;font-weight: 600;letter-spacing:0.5px; cursor: pointer; padding: 0 0 10px; line-height: 20px;}
-.middle-section .navbar-nav.nav-links.navbar-nav>li { margin-right: 50px;}
+.middle-section .navbar-nav.nav-links.navbar-nav>li { margin-right: 50px; position: relative;}
 .middle-section .navbar-nav.nav-links.navbar-nav>li:nth-last-child(1) { margin-right: 0;}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover { background-color: transparent;}
 .middle-section .caret {
@@ -27,9 +27,13 @@ header .container-fluid{ width: 92%; margin: auto;}
 }
 
 .talk-experts {
-    background: #f5f5f5; border-radius: 30px; display: flex; align-items: center; padding: 18px 30px;
+    background: #f4f4ff; border-radius: 30px; display: flex; align-items: center; padding: 18px 30px; position: relative;
 }
 .talk-experts span {
     color: #000; font-size:13px;font-family: 'AvenirNextBold';
 }
 .talk-experts span a {color:#0C30FB; text-decoration: none; cursor: pointer;}
+.talk-experts small { position: absolute; top: 6px; left: -18px; border-radius: 30px; cursor: pointer;}
+.middle-section .navbar-nav.nav-links.navbar-nav>li.active::after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; margin: 0 auto;border-bottom: #0C30FB 4px solid;
+width:22px;
+}

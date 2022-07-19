@@ -1,0 +1,24 @@
+footer{ width: 100%;}
+.footer-top { background:url('/assets/images/subscribe-bg.png') no-repeat top center; height: 313px; background-size: cover;display: flex; align-items: center;}
+.footer-top-in { display: flex; align-items: center; justify-content: space-between;}
+.footer-top-lft h4 { color: #fff;  font-family: 'AvenirNextBold'; font-size:30px; line-height: 40px; margin-bottom:30px;}
+.footer-top-lft p { color: #fff; font-size:20px; line-height:30px;}
+
+.footer-top-rgt { width:30%;}
+.search-box { background: #fff; border-radius: 50px; display: flex; align-items: center;}
+.search-box .form-control {
+    padding:20px 15px 15px; height: auto; font-size: 18px; border-radius:50px 0 0 50px; border: none;
+}
+.search-box button{
+    outline: none; border:none; background: transparent; cursor: pointer; padding: 5px 20px 0;
+    border-left: #000 2px solid;
+    height: 62px; font-weight:600;
+} 
+.search-box .form-control:focus {
+    box-shadow: none;
+}
+
+.footer-mdl { background: #fff;}
+
+
+.footer-btm { background: #fff;}
