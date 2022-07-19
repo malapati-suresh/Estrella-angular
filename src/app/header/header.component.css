@@ -27,9 +27,9 @@ header .container-fluid{ width: 92%; margin: auto;}
 }
 
 .talk-experts {
-    background: #f8f8f8; border-radius: 30px; display: flex; align-items: center;
+    background: #f5f5f5; border-radius: 30px; display: flex; align-items: center; padding: 18px 30px;
 }
 .talk-experts span {
-    color: #000; font-size: 20px;
+    color: #000; font-size:13px;font-family: 'AvenirNextBold';
 }
-.talk-experts span a {color:#0C30FB;}
+.talk-experts span a {color:#0C30FB; text-decoration: none; cursor: pointer;}

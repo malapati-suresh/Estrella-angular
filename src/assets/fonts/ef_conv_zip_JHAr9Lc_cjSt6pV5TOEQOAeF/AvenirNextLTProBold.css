@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvenirNextLTProBold';
+    src: url('fonts/AvenirNextLTProBold.eot');
+    src: url('fonts/AvenirNextLTProBold.eot') format('embedded-opentype'),
+         url('fonts/AvenirNextLTProBold.woff2') format('woff2'),
+         url('fonts/AvenirNextLTProBold.woff') format('woff'),
+         url('fonts/AvenirNextLTProBold.ttf') format('truetype'),
+         url('fonts/AvenirNextLTProBold.svg#AvenirNextLTProBold') format('svg');
+}
