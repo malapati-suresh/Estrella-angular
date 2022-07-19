@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvenirNextRegular';
+    src: url('fonts/AvenirNextRegular.eot');
+    src: url('fonts/AvenirNextRegular.eot') format('embedded-opentype'),
+         url('fonts/AvenirNextRegular.woff2') format('woff2'),
+         url('fonts/AvenirNextRegular.woff') format('woff'),
+         url('fonts/AvenirNextRegular.ttf') format('truetype'),
+         url('fonts/AvenirNextRegular.svg#AvenirNextRegular') format('svg');
+}

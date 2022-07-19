@@ -1,0 +1,51 @@
+<svg id="Group_30555" data-name="Group 30555" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.28" height="55.427" viewBox="0 0 143.28 55.427">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_50543" data-name="Rectangle 50543" width="143.28" height="55.427" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_50538" data-name="Rectangle 50538" width="40.471" height="27.506" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectangle_50540" data-name="Rectangle 50540" width="11.35" height="10.795" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_30554" data-name="Group 30554" clip-path="url(#clip-path)">
+    <g id="Group_30551" data-name="Group 30551" transform="translate(0 0)">
+      <g id="Group_30550" data-name="Group 30550" clip-path="url(#clip-path)">
+        <g id="Group_30543" data-name="Group 30543" transform="translate(0 17.054)" opacity="0.8">
+          <g id="Group_30542" data-name="Group 30542">
+            <g id="Group_30541" data-name="Group 30541" clip-path="url(#clip-path-3)">
+              <path id="Path_20680" data-name="Path 20680" d="M0,15.181s5.72,7.281,21.139,10.655,22.4,9.393,18.067,16.851c0,0-8.631-7.193-17.51-8.369a23.28,23.28,0,0,1-2.3-.372C8.3,31.337,1.61,25.221,0,15.181" transform="translate(0 -15.182)" fill="#0731ff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_30546" data-name="Group 30546" transform="translate(1.107 2.979)" opacity="0.6">
+          <g id="Group_30545" data-name="Group 30545">
+            <g id="Group_30544" data-name="Group 30544" clip-path="url(#clip-path-3)">
+              <path id="Path_20681" data-name="Path 20681" d="M.985,2.652S6.7,9.932,22.124,13.306,44.523,22.7,40.19,30.158c0,0-3.428-5.976-19.81-8.741C9.284,18.807,2.595,12.692.985,2.652" transform="translate(-0.985 -2.652)" fill="#0731ff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_20682" data-name="Path 20682" d="M2.29,28.952s4.4,6.21,14.488,8.816,14.978,4.7,17.662,8.362L27.97,51.553S7.243,45.34,2.29,28.952" transform="translate(0.282 3.571)" fill="#0731ff"/>
+        <path id="Path_20683" data-name="Path 20683" d="M28.937,1.325l2.679,5.429,5.992.871-4.336,4.226,1.023,5.967L28.937,15l-5.358,2.817L24.6,11.851,20.266,7.625l5.992-.871Z" transform="translate(2.499 0.164)" fill="#0731ff"/>
+        <g id="Group_30549" data-name="Group 30549" transform="translate(46.691 0)" opacity="0.6">
+          <g id="Group_30548" data-name="Group 30548">
+            <g id="Group_30547" data-name="Group 30547" clip-path="url(#clip-path-5)">
+              <path id="Path_20684" data-name="Path 20684" d="M47.24,0l1.754,3.553,3.922.571L50.078,6.889l.67,3.906L47.24,8.951,43.733,10.8l.67-3.906L41.565,4.124l3.922-.571Z" transform="translate(-41.565)" fill="#0731ff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="E" transform="translate(50.374 34.523)" fill="#0731ff" font-size="27" font-family="Metropolis-SemiBold, Metropolis" font-weight="600"><tspan x="0" y="0">E</tspan></text>
+    <g id="Group_30553" data-name="Group 30553" transform="translate(0 0)">
+      <g id="Group_30552" data-name="Group 30552" clip-path="url(#clip-path)">
+        <text id="strella" transform="translate(67.223 35.523)" fill="#0731ff" font-size="28" font-family="Metropolis-SemiBold, Metropolis" font-weight="600"><tspan x="0" y="0" letter-spacing="-0.04em">s</tspan><tspan y="0" letter-spacing="-0.039em">t</tspan><tspan y="0" letter-spacing="-0.04em">r</tspan><tspan y="0" letter-spacing="-0.039em">ell</tspan><tspan y="0">a</tspan></text>
+        <text id="I" transform="translate(51.781 51.86)" font-size="12" font-family="Metropolis-Medium, Metropolis" font-weight="500"><tspan x="0" y="0">I</tspan></text>
+        <text id="T_Services" data-name="T Services" transform="translate(54.905 51.86)" font-size="12" font-family="Metropolis-Medium, Metropolis" font-weight="500"><tspan x="0" y="0">T Services</tspan></text>
+        <line id="Line_53" data-name="Line 53" x2="22.846" transform="translate(118.617 48.491)" fill="none" stroke="#a3a3a3" stroke-miterlimit="10" stroke-width="0.25"/>
+      </g>
+    </g>
+  </g>
+</svg>

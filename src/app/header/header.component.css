@@ -1,0 +1,35 @@
+header{width: 100%; padding: 10px 0;}
+header .navbar-inverse { border-color: transparent; background-color: transparent; margin-bottom: 0;}
+.navbar { min-height:auto;}
+.navbar-brand {
+height: auto; padding: 0; cursor: pointer; margin-right: auto;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+color:#0C30FB; background-color: transparent; border-bottom: #0C30FB 3px solid;}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover { color: #0C30FB;}
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 64%;
+}
+header .container-fluid{ width: 92%; margin: auto;}
+.main-nav-sec { display: flex; align-items: center; width: 100%;}
+.navbar-collapse { padding: 0;}
+.navbar-inverse .navbar-nav>li>a {color: #000; font-size:18px;font-weight: 600;letter-spacing:0.5px; cursor: pointer; padding: 0 0 10px; line-height: 20px;}
+.middle-section .navbar-nav.nav-links.navbar-nav>li { margin-right: 50px;}
+.middle-section .navbar-nav.nav-links.navbar-nav>li:nth-last-child(1) { margin-right: 0;}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover { background-color: transparent;}
+.middle-section .caret {
+    border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.talk-experts {
+    background: #f8f8f8; border-radius: 30px; display: flex; align-items: center;
+}
+.talk-experts span {
+    color: #000; font-size: 20px;
+}
+.talk-experts span a {color:#0C30FB;}
