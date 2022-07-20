@@ -1,7 +1,7 @@
 .banner{ display: block;}
-.carousel-indicators .active {width: 16px;
+.banner .carousel-indicators .active {width: 16px;
 height: 16px; margin: 0 5px; background-color: #fff;}
-.carousel-indicators li { width: 16px; height: 16px; margin: 0 5px; border: none; background-color: #f8f8f880;}
+.banner .carousel-indicators li { width: 16px; height: 16px; margin: 0 5px; border: none; background-color: #f8f8f880;}
 .banner .carousel-caption {
     right: 0;
     left: 0;
@@ -25,7 +25,7 @@ height: 16px; margin: 0 5px; background-color: #fff;}
 .banner a:hover {
  color:#3953e1; background: #ffffffe0;   
 }
-.carousel-indicators { width: auto; bottom: 60px;}
+.banner .carousel-indicators { width: auto; bottom: 60px; left:43%;}
 
 /* company logo section */
 .company_logo_section{
@@ -150,3 +150,102 @@ height: 16px; margin: 0 5px; background-color: #fff;}
     padding-bottom: 0px;
     font-family: 'AvenirNextBold'; margin-bottom:20px;
 }
+
+.companies-section { display: block; padding: 50px 0;}
+.companies-section-in { text-align: center;}
+
+.companies-section-in h3{
+    font-size:30px; line-height: 30px;
+    font-weight: bold;
+    font-family: 'AvenirNextBold'; margin-bottom:20px;
+}
+
+.companies-section-in h3 span{
+    color: #0C30FB;
+}
+
+.companies-section-in p{
+    font-size: 18px;
+    line-height: 28px; font-weight: 600;
+}
+.companies-inner-section { display: flex; align-items: center; justify-content: space-between; padding:70px 0 50px;}
+.companies-inner-lft { padding:0; width: 45%;}
+.companies-inner-lft h4 {
+    font-size:30px; line-height: 30px;
+    font-weight: bold;
+    font-family: 'AvenirNextBold'; margin-bottom:20px;
+}
+.companies-inner-lft small{
+    font-size: 18px;
+    line-height:26px; margin-bottom: 20px; display: block;
+}
+.companies-inner-lft ul { display: flex; align-items: flex-start; width: 100%; flex-wrap: wrap;}
+.companies-inner-lft ul li { margin-bottom: 10px; width: 100%;}
+.companies-inner-lft ul li span { width:40px; display: inline-block;}
+.companies-inner-lft ul li em {
+    font-size: 18px;
+    line-height: 28px; font-style: normal;
+}
+.companies-inner-lft p{
+    font-size: 18px;
+    line-height:27px; margin-bottom: 20px;
+}
+
+.companies-inner-rgt { background: #fff; box-shadow: 0px 5px 10px 5px #e1e1e1; border-radius: 10px; padding: 50px 100px; width: 45%;}
+.soft-block { display: flex; align-items:baseline;}
+.right-block { width:40px;}
+
+.explore {
+    cursor: pointer; margin-top:30px;
+}
+.explore small {
+    color: #0C30FB; font-size:20px; line-height: 20px;font-family: 'AvenirNextBold'; margin-bottom: 0;
+}
+.explore small img {
+    padding-left: 10px;
+}
+.companies-inner-rgt figure img { width: 100%; height: auto;}
+
+.client-sliders {
+    background: #0C30FB; text-align: center; padding: 50px 0;
+}
+.client-sliders h2{
+    font-size:30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'AvenirNextBold'; margin-bottom:30px;color: #fff; line-height: 30px;
+}
+.client-sliders p{
+    font-size: 18px;
+    line-height:27px; margin-bottom: 20px; color: #fff;
+}
+
+.contact-forms { padding: 50px 0 80px;}
+.contact-forms .companies-section-in h3 { line-height: 50px; margin-bottom: 50px;}
+.contact-forms .companies-section-in b { font-weight: bold; font-size: 25px;font-family: 'AvenirNextBold'; }
+
+.companies-section-in ul { width: 40%; margin:30px auto;}
+.companies-section-in ul li { margin-bottom: 20px;}
+.companies-section-in ul li .form-control { border: #8d8d8d 1px solid; height: auto; padding: 15px 20px; color: #000; border-radius: 10px;
+font-size: 16px;}
+.companies-section-in ul li .btn {
+    background: #0C30FB; display: block; padding:25px 20px;font-family: 'AvenirNextBold';color: #fff; font-size: 17px; line-height: 17px; width: 100%;
+    border-radius:10px; border: none;
+}
+.companies-section-in small{ font-size: 15px; line-height: 25px;}
+.btn.focus, .btn:focus, .btn:hover { outline: none; border:none;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #000;
+  }
+  .companies-section-in ul li .form-control:focus{
+      box-shadow: none;
+  }
