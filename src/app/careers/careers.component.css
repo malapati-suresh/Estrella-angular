@@ -1,0 +1,66 @@
+.career-form {
+border-radius: 5px;
+padding: 0 16px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content:center;
+margin:50px 0px;
+}
+
+.career-form h3 {
+font-size: 18px;
+line-height: 22px;
+width: 100px;
+margin: 0px; font-weight: bold;
+}
+
+.career-form .custom-select {
+background-color: rgba(255, 255, 255, 0.2);
+padding: 15px;
+color: #000000;
+width: 100%;
+border-radius: 5px;
+text-align: left;
+height: auto;
+background-image: none;
+font-size: 16px;
+font-weight: bold; border: #bbb6b6 1px solid; position: relative;
+}
+
+.job-box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0px 3px 5px 3px #e1e1e1;
+border-radius: 5px;
+column-gap: 30px;
+padding: 20px 30px 20px 20px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.job-box h3{
+font-size: 26px;
+font-weight: 900;
+line-height: 26px;font-family: 'AvenirNextBold';
+}
+.job-box span{
+font-size: 16px;
+line-height: 22px;
+}
+.job-box ul{
+padding-left: 20px;
+display: inline-block;
+}
+.job-box li{
+font-size: 16px;
+line-height: 22px;
+}
+
+.career-form .custom-select:focus-visible { outline: none;}
+.select-container::after {
+    content:''; position: absolute; top: 12px; right:13px; background:url('/assets/images/Dropdown arrow.svg') no-repeat top center; height: 32px; width: 32px;
+}
+.job-filter{padding:30px 0 80px;}
+.select-container {position: relative;}
