@@ -61,50 +61,50 @@ outline: none;
 font-family: 'AvenirNextRegular';
 src: url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.eot');
 src: url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.eot') format('embedded-opentype'),
-    url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.woff2') format('woff2'),
-    url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.woff') format('woff'),
-    url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.ttf') format('truetype'),
-    url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.svg#AvenirNextRegular') format('svg');
+url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.woff2') format('woff2'),
+url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.woff') format('woff'),
+url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.ttf') format('truetype'),
+url('./assets/fonts/AvenirNextRegular/fonts/AvenirNextRegular.svg#AvenirNextRegular') format('svg');
 }
 
 @font-face {
 font-family: 'AvenirNextMedium';
 src: url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.eot');
 src: url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.eot') format('embedded-opentype'),
-        url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.woff2') format('woff2'),
-        url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.woff') format('woff'),
-        url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.ttf') format('truetype'),
-        url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.svg#AvenirNextMedium') format('svg');
+url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.woff2') format('woff2'),
+url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.woff') format('woff'),
+url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.ttf') format('truetype'),
+url('./assets/fonts/AvenirNextMedium/fonts/AvenirNextMedium.svg#AvenirNextMedium') format('svg');
 }
 
 @font-face {
 font-family: 'AvenirNextBold';
 src: url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.eot');
 src: url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.eot') format('embedded-opentype'),
-        url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.woff2') format('woff2'),
-        url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.woff') format('woff'),
-        url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.ttf') format('truetype'),
-        url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.svg#AvenirNextBold') format('svg');
+url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.woff2') format('woff2'),
+url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.woff') format('woff'),
+url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.ttf') format('truetype'),
+url('./assets/fonts/AvenirNextBold/fonts/AvenirNextBold.svg#AvenirNextBold') format('svg');
 }
 
 @font-face {
 font-family: 'AvenirNextLTProRegular';
 src: url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.eot');
 src: url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.eot') format('embedded-opentype'),
-        url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.woff2') format('woff2'),
-        url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.woff') format('woff'),
-        url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.ttf') format('truetype'),
-        url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.svg#AvenirNextLTProRegular') format('svg');
+url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.woff2') format('woff2'),
+url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.woff') format('woff'),
+url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.ttf') format('truetype'),
+url('./assets/fonts/AvenirNextLTProRegular/fonts/AvenirNextLTProRegular.svg#AvenirNextLTProRegular') format('svg');
 }
 
 @font-face {
 font-family: 'AvenirNextLTProBold';
 src: url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.eot');
 src: url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.eot') format('embedded-opentype'),
-        url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.woff2') format('woff2'),
-        url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.woff') format('woff'),
-        url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.ttf') format('truetype'),
-        url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.svg#AvenirNextLTProBold') format('svg');
+url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.woff2') format('woff2'),
+url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.woff') format('woff'),
+url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.ttf') format('truetype'),
+url('./assets/fonts/AvenirNextLTProBold/fonts/AvenirNextLTProBold.svg#AvenirNextLTProBold') format('svg');
 }
 
 .career-bg-container {
@@ -179,4 +179,57 @@ select {
 -moz-appearance: none;
 text-indent: 1px;
 text-overflow: '';
+}
+
+
+.contact-forms { padding: 50px 0 80px;}
+.contact-forms .companies-section-in h3 { line-height: 50px; margin-bottom: 50px;}
+.contact-forms .companies-section-in b { font-weight: bold; font-size: 25px;font-family: 'AvenirNextBold'; }
+
+.companies-section-in ul { width: 40%; margin:30px auto;}
+.companies-section-in ul li { margin-bottom: 20px; position: relative;}
+.companies-section-in ul li .form-control { border: #8d8d8d 1px solid; height: auto; padding: 15px 20px; color: #000; border-radius: 10px;
+font-size: 16px;}
+.companies-section-in ul li .btn {
+background: #0C30FB; display: block; padding:25px 20px;font-family: 'AvenirNextBold';color: #fff; font-size: 17px; line-height: 17px; width: 100%;
+border-radius:10px; border: none;
+-webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out; text-decoration: none;
+
+}
+.companies-section-in small{ font-size: 15px; line-height: 25px;}
+.btn.focus, .btn:focus, .btn:hover { outline: none; border:none;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: #000;
+}
+.companies-section-in ul li .form-control:focus{
+box-shadow: none;
+}
+.companies-section-in ul li .select-drop{
+position: absolute; top: 12px; right:13px; background:url('/assets/images/Dropdown arrow.svg') no-repeat top center; height: 32px; width: 32px;
+}
+
+
+.phone-block { display: flex; align-items: center;}
+.country-drop { position: relative; width:45%;}
+.companies-section-in ul li .phone-block .country-drop .form-control {
+border-radius: 10px 0 0 10px; 
+}
+.companies-section-in ul li .phone-block .country-drop .select-drop1 { right:8px;}
+.companies-section-in ul li .phone-block .form-control.form-control1 { border-left: transparent 1px solid;border-radius: 0 10px 10px 0;}
+option {  font-size: 16px;}
+
+.companies-section-in ul li .btn:focus{ outline: none;}
+.companies-section-in ul li .btn:hover {
+background: #1231e1;
+-webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out; text-decoration: none;
+
 }

@@ -155,7 +155,7 @@ font-family: 'AvenirNextBold'; margin-bottom:20px;
 .companies-section-in { text-align: center;}
 
 .companies-section-in h3{
-font-size:30px; line-height: 30px;
+font-size:30px;
 font-weight: bold;
 font-family: 'AvenirNextBold'; margin-bottom:20px;
 }
@@ -207,7 +207,7 @@ padding-left: 10px;
 .companies-inner-rgt figure img { width: 100%; height: auto;}
 
 .client-sliders {
-background: #0C30FB; text-align: center; padding: 50px 0;
+background: #0C30FB; text-align: center; padding: 50px 0 100px;
 }
 .client-sliders h2{
 font-size:30px;
@@ -220,20 +220,6 @@ font-size: 18px;
 line-height:27px; margin-bottom: 20px; color: #fff;
 }
 
-.contact-forms { padding: 50px 0 80px;}
-.contact-forms .companies-section-in h3 { line-height: 50px; margin-bottom: 50px;}
-.contact-forms .companies-section-in b { font-weight: bold; font-size: 25px;font-family: 'AvenirNextBold'; }
-
-.companies-section-in ul { width: 40%; margin:30px auto;}
-.companies-section-in ul li { margin-bottom: 20px; position: relative;}
-.companies-section-in ul li .form-control { border: #8d8d8d 1px solid; height: auto; padding: 15px 20px; color: #000; border-radius: 10px;
-font-size: 16px;}
-.companies-section-in ul li .btn {
-background: #0C30FB; display: block; padding:25px 20px;font-family: 'AvenirNextBold';color: #fff; font-size: 17px; line-height: 17px; width: 100%;
-border-radius:10px; border: none;
-}
-.companies-section-in small{ font-size: 15px; line-height: 25px;}
-.btn.focus, .btn:focus, .btn:hover { outline: none; border:none;}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 color: #000;
 }
@@ -246,11 +232,26 @@ color: #000;
 :-moz-placeholder { /* Firefox 18- */
 color: #000;
 }
-.companies-section-in ul li .form-control:focus{
-box-shadow: none;
-}
-.companies-section-in ul li .select-drop{
- position: absolute; top: 12px; right:13px; background:url('/assets/images/Dropdown arrow.svg') no-repeat top center; height: 32px; width: 32px;
-}
+.client-sliders-in { text-align: center; margin-top: 70px;}
+.carousel-main-sec { display: block;}
+.carousel-cont { width:40%; text-align: center; background: #fff; border-radius: 10px; padding: 20px 10px; display: inline-block; margin: 0 20px;}
+.carousel-cont span { margin-bottom: 15px; display: block;}
+.carousel-cont p { font-size: 18px; line-height: 28px; color: #000;}
+.carousel-cont figure { display: block; width: 80px; height: 80px; border-radius: 30px; margin: auto;}
+.carousel-cont figure img { width: 100%; height: auto;}
+.carousel-cont h4 {font-family: 'AvenirNextBold'; font-size: 20px; line-height: 20px;}
 
+.client-sliders-in .carousel-control.left, .client-sliders-in .carousel-control.right {
+    background-image:none;
+}
+.client-sliders-in .carousel-control { text-shadow: none; background-color: transparent; opacity: 1; width: auto;}
 
+.client-sliders-in .carousel-control .glyphicon-chevron-left, .client-sliders-in .carousel-control .icon-prev, 
+.client-sliders-in .carousel-control .glyphicon-chevron-right, .client-sliders-in .carousel-control .icon-next
+{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    background:#fff; color: #0C30FB;
+}
